@@ -242,13 +242,14 @@ IP: {socket.gethostbyname(socket.gethostname())}
 """)
             f.write('\n')
             sorted_vulns = sorted(self.vulns, key=lambda vuln: vuln['severity'])
-            if sorted_vulns[0]['severity'] == 'critical' and self.vulns:
-                print(sorted_vulns)
-                count = 1
-                for vuln in sorted_vulns:
-                    if vuln['severity'] == 'critical':
-                        f.write(f'Уязвимость {count}: \n')
-                        f.write(f""" ПО: {vuln['name']}
+            if self.vulns:
+                if sorted_vulns[0]['severity'] == 'critical':
+                    print(sorted_vulns)
+                    count = 1
+                    for vuln in sorted_vulns:
+                        if vuln['severity'] == 'critical':
+                            f.write(f'Уязвимость {count}: \n')
+                            f.write(f""" ПО: {vuln['name']}
 Версия: {vuln['version']}
 CVE: {vuln['cve_id']}
 Уровень критичности: {vuln['severity']}
