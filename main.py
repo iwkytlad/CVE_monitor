@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import platform
 import subprocess
+import os
 
 
 class CVE_Monitor():
@@ -26,14 +27,16 @@ class CVE_Monitor():
 
         self.software = self.load_installed_software()
         self.hosts = self.software.get('hosts', [])
-        print(f"✅ Загружено CVE: {len(self.cve_db)}")
-        print(f"✅ Загружено хостов: {len(self.hosts)}")
-        print("✅ Инициализация завершена!")
+        print(f"Загружено CVE: {len(self.cve_db)}")
+        print(f"Загружено хостов: {len(self.hosts)}")
+        print("Инициализация завершена")
         self.vulns = self.scan_all_hosts()
-        print("✅ Все хосты просканированы!")
+        print("Все хосты просканированы")
         self.generate_reports()
+        print("Репорт открыт в браузере")
         self.save_results_json()
         self.generate_alerts()
+        print("Отчеты созданы")
 
     def load_cve_database(self):
         try:
@@ -207,6 +210,16 @@ class CVE_Monitor():
                 f.write('    <h2>✅ Нет уязвимостей</h2>\n')
             f.write('</body> \n')
             f.write('</html> \n')
+            self.open_report(self.path / 'reports' / f'scan_report_{comp_name}_{cd.year}_{cd.month}_{cd.day}.html')
+
+    def open_report(self, report_path):
+        system = platform.system()
+        if system == "Darwin":
+            os.system(f"open {report_path}")
+        elif system == "Windows":
+            os.system(f"start {report_path}")
+        else:
+            os.system(f"xdg-open {report_path}")
 
     def save_results_json(self):
         cd = datetime.datetime.now()
