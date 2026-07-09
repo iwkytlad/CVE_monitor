@@ -53,18 +53,18 @@ class CVE_Monitor():
         sw_file = self.path / 'data' / 'installed_software.json'
 
         if not sw_file.exists():
-            print("⚠️ Файл installed_software.json не найден. Создаю...")
+            print("installed_software.json not found")
             return self.generate_software_json()
 
         try:
             with open(sw_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             if not data:
-                print("⚠️ Файл installed_software.json пуст. Создаю...")
+                print("installed_software.json is empty")
                 return self.generate_software_json()
             return data
         except json.JSONDecodeError:
-            print("⚠️ Ошибка в JSON, создаю заново...")
+            print("errors in installed_software.json")
             return self.generate_software_json()
 
     # Сгенерировано AI
