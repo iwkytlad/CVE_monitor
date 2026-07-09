@@ -1,0 +1,920 @@
+[
+  {
+    "id": "CVE-2021-44228",
+    "software": "apache_log4j",
+    "versions_affected": ["2.0", "2.14.1"],
+    "severity": "critical",
+    "cvss_score": 10.0,
+    "description": "Remote code execution in Log4j",
+    "published": "2021-12-10"
+  },
+  {
+    "id": "CVE-2021-45046",
+    "software": "apache_log4j",
+    "versions_affected": ["2.0", "2.15.0"],
+    "severity": "critical",
+    "cvss_score": 9.0,
+    "description": "Denial of service in Log4j",
+    "published": "2021-12-14"
+  },
+  {
+    "id": "CVE-2022-22965",
+    "software": "spring_framework",
+    "versions_affected": ["5.3.0", "5.3.17"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Spring Framework (Spring4Shell)",
+    "published": "2022-03-31"
+  },
+  {
+    "id": "CVE-2022-22947",
+    "software": "spring_cloud_gateway",
+    "versions_affected": ["3.1.0", "3.1.1"],
+    "severity": "critical",
+    "cvss_score": 10.0,
+    "description": "Remote code execution in Spring Cloud Gateway",
+    "published": "2022-03-01"
+  },
+  {
+    "id": "CVE-2022-1388",
+    "software": "f5_bigip",
+    "versions_affected": ["16.1.0", "16.1.2"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in F5 BIG-IP",
+    "published": "2022-05-04"
+  },
+  {
+    "id": "CVE-2022-26134",
+    "software": "atlassian_confluence",
+    "versions_affected": ["7.4.0", "7.18.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Confluence (OGNL injection)",
+    "published": "2022-06-02"
+  },
+  {
+    "id": "CVE-2023-22518",
+    "software": "atlassian_confluence",
+    "versions_affected": ["7.4.0", "7.19.8"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Improper authorization in Confluence Data Center and Server",
+    "published": "2023-11-07"
+  },
+  {
+    "id": "CVE-2021-4034",
+    "software": "linux_polkit",
+    "versions_affected": ["0.105", "0.120"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in polkit (PwnKit)",
+    "published": "2022-01-25"
+  },
+  {
+    "id": "CVE-2022-0847",
+    "software": "linux_kernel",
+    "versions_affected": ["5.8", "5.16.11"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in Linux kernel (Dirty Pipe)",
+    "published": "2022-03-07"
+  },
+  {
+    "id": "CVE-2017-0144",
+    "software": "windows_smbv1",
+    "versions_affected": ["windows_7", "windows_server_2008"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in SMBv1 (EternalBlue)",
+    "published": "2017-03-14"
+  },
+  {
+    "id": "CVE-2020-1472",
+    "software": "windows_netlogon",
+    "versions_affected": ["windows_2008", "windows_2019"],
+    "severity": "critical",
+    "cvss_score": 10.0,
+    "description": "Privilege escalation in Netlogon (ZeroLogon)",
+    "published": "2020-08-11"
+  },
+  {
+    "id": "CVE-2021-34527",
+    "software": "windows_print_spooler",
+    "versions_affected": ["windows_10", "windows_server_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Print Spooler (PrintNightmare)",
+    "published": "2021-07-01"
+  },
+  {
+    "id": "CVE-2019-0708",
+    "software": "windows_rdp",
+    "versions_affected": ["windows_7", "windows_server_2008"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in RDP (BlueKeep)",
+    "published": "2019-05-14"
+  },
+  {
+    "id": "CVE-2023-23397",
+    "software": "microsoft_outlook",
+    "versions_affected": ["outlook_2016", "office_365"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Elevation of privilege in Microsoft Outlook",
+    "published": "2023-03-14"
+  },
+  {
+    "id": "CVE-2023-28252",
+    "software": "windows_clfs",
+    "versions_affected": ["windows_10", "windows_server_2022"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Windows CLFS",
+    "published": "2023-04-11"
+  },
+  {
+    "id": "CVE-2023-29357",
+    "software": "microsoft_sharepoint",
+    "versions_affected": ["sharepoint_2016", "sharepoint_2019"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Elevation of privilege in Microsoft SharePoint",
+    "published": "2023-06-13"
+  },
+  {
+    "id": "CVE-2023-36884",
+    "software": "microsoft_office",
+    "versions_affected": ["office_2016", "office_2021"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Microsoft Office",
+    "published": "2023-07-11"
+  },
+  {
+    "id": "CVE-2023-44487",
+    "software": "nginx",
+    "versions_affected": ["1.22.0", "1.24.0"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "HTTP/2 Rapid Reset vulnerability allowing DoS attacks",
+    "published": "2023-10-10"
+  },
+  {
+    "id": "CVE-2023-44313",
+    "software": "apache_httpd",
+    "versions_affected": ["2.4.0", "2.4.57"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache HTTP Server",
+    "published": "2023-10-10"
+  },
+  {
+    "id": "CVE-2023-46604",
+    "software": "apache_active_mq",
+    "versions_affected": ["5.18.0", "5.18.2"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache ActiveMQ",
+    "published": "2023-10-27"
+  },
+  {
+    "id": "CVE-2023-38545",
+    "software": "curl",
+    "versions_affected": ["7.69.0", "8.4.0"],
+    "severity": "high",
+    "cvss_score": 8.8,
+    "description": "Heap buffer overflow in curl SOCKS5 proxy",
+    "published": "2023-10-11"
+  },
+  {
+    "id": "CVE-2023-41049",
+    "software": "curl",
+    "versions_affected": ["7.69.0", "8.2.1"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in curl",
+    "published": "2023-09-13"
+  },
+  {
+    "id": "CVE-2023-32784",
+    "software": "keepass",
+    "versions_affected": ["2.53", "2.54"],
+    "severity": "medium",
+    "cvss_score": 5.5,
+    "description": "Master password disclosure in KeePass",
+    "published": "2023-05-15"
+  },
+  {
+    "id": "CVE-2023-27350",
+    "software": "papercut_ng",
+    "versions_affected": ["20.0.0", "22.1.1"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in PaperCut NG",
+    "published": "2023-03-16"
+  },
+  {
+    "id": "CVE-2023-28858",
+    "software": "redis",
+    "versions_affected": ["7.0.0", "7.0.11"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in Redis",
+    "published": "2023-04-17"
+  },
+  {
+    "id": "CVE-2022-24682",
+    "software": "zabbix",
+    "versions_affected": ["5.4.0", "6.0.6"],
+    "severity": "high",
+    "cvss_score": 7.2,
+    "description": "Remote code execution in Zabbix",
+    "published": "2022-02-14"
+  },
+  {
+    "id": "CVE-2021-21972",
+    "software": "vmware_vcenter",
+    "versions_affected": ["7.0.0", "7.0.2"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in VMware vCenter Server",
+    "published": "2021-02-23"
+  },
+  {
+    "id": "CVE-2021-21985",
+    "software": "vmware_vcenter",
+    "versions_affected": ["7.0.0", "7.0.2"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in VMware vCenter Server",
+    "published": "2021-05-25"
+  },
+  {
+    "id": "CVE-2022-22954",
+    "software": "vmware_workspace_one",
+    "versions_affected": ["20.0.0", "21.0.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in VMware Workspace ONE",
+    "published": "2022-03-16"
+  },
+  {
+    "id": "CVE-2022-2143",
+    "software": "vmware_tanzu",
+    "versions_affected": ["1.0.0", "1.5.0"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in VMware Tanzu",
+    "published": "2022-06-21"
+  },
+  {
+    "id": "CVE-2021-40539",
+    "software": "zoho_manageengine",
+    "versions_affected": ["12.0.0", "12.6.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Zoho ManageEngine",
+    "published": "2021-10-12"
+  },
+  {
+    "id": "CVE-2022-30190",
+    "software": "microsoft_msdt",
+    "versions_affected": ["windows_10", "windows_server_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in MSDT (Follina)",
+    "published": "2022-05-30"
+  },
+  {
+    "id": "CVE-2022-26923",
+    "software": "windows_ad_cs",
+    "versions_affected": ["windows_2016", "windows_2022"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Privilege escalation in Active Directory Certificate Services",
+    "published": "2022-04-12"
+  },
+  {
+    "id": "CVE-2022-21907",
+    "software": "windows_http",
+    "versions_affected": ["windows_10", "windows_server_2019"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Windows HTTP",
+    "published": "2022-01-11"
+  },
+  {
+    "id": "CVE-2022-21882",
+    "software": "windows_win32k",
+    "versions_affected": ["windows_10", "windows_11"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Elevation of privilege in Win32k",
+    "published": "2022-01-11"
+  },
+  {
+    "id": "CVE-2021-1675",
+    "software": "windows_print_spooler",
+    "versions_affected": ["windows_10", "windows_server_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Print Spooler",
+    "published": "2021-06-08"
+  },
+  {
+    "id": "CVE-2020-0796",
+    "software": "windows_smbv3",
+    "versions_affected": ["windows_10", "windows_server_2019"],
+    "severity": "critical",
+    "cvss_score": 10.0,
+    "description": "Remote code execution in SMBv3 (SMBGhost)",
+    "published": "2020-03-10"
+  },
+  {
+    "id": "CVE-2019-19781",
+    "software": "citrix_adc",
+    "versions_affected": ["12.0", "13.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Citrix ADC",
+    "published": "2019-12-17"
+  },
+  {
+    "id": "CVE-2020-0601",
+    "software": "windows_crypto",
+    "versions_affected": ["windows_10", "windows_server_2019"],
+    "severity": "critical",
+    "cvss_score": 8.1,
+    "description": "Crypto vulnerability in Windows",
+    "published": "2020-01-14"
+  },
+  {
+    "id": "CVE-2020-1350",
+    "software": "windows_dns",
+    "versions_affected": ["windows_2016", "windows_2019"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Windows DNS Server (SigRed)",
+    "published": "2020-07-14"
+  },
+  {
+    "id": "CVE-2021-26855",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2013", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Exchange (ProxyLogon)",
+    "published": "2021-03-02"
+  },
+  {
+    "id": "CVE-2021-26857",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2013", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Remote code execution in Exchange",
+    "published": "2021-03-02"
+  },
+  {
+    "id": "CVE-2021-26858",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2013", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Remote code execution in Exchange",
+    "published": "2021-03-02"
+  },
+  {
+    "id": "CVE-2022-41082",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2016", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Exchange",
+    "published": "2022-11-08"
+  },
+  {
+    "id": "CVE-2022-41040",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2016", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Elevation of privilege in Exchange",
+    "published": "2022-11-08"
+  },
+  {
+    "id": "CVE-2023-21709",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2016", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Exchange",
+    "published": "2023-01-10"
+  },
+  {
+    "id": "CVE-2023-21715",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2016", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Exchange",
+    "published": "2023-01-10"
+  },
+  {
+    "id": "CVE-2023-21716",
+    "software": "microsoft_exchange",
+    "versions_affected": ["exchange_2016", "exchange_2019"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Exchange",
+    "published": "2023-01-10"
+  },
+  {
+    "id": "CVE-2023-24932",
+    "software": "windows_boot_manager",
+    "versions_affected": ["windows_10", "windows_11"],
+    "severity": "high",
+    "cvss_score": 6.7,
+    "description": "Secure Boot bypass in Windows",
+    "published": "2023-05-09"
+  },
+  {
+    "id": "CVE-2023-24941",
+    "software": "windows_kerberos",
+    "versions_affected": ["windows_2016", "windows_2022"],
+    "severity": "critical",
+    "cvss_score": 8.1,
+    "description": "Privilege escalation in Windows Kerberos",
+    "published": "2023-05-09"
+  },
+  {
+    "id": "CVE-2023-28231",
+    "software": "windows_dhcp",
+    "versions_affected": ["windows_10", "windows_server_2022"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Windows DHCP",
+    "published": "2023-04-11"
+  },
+  {
+    "id": "CVE-2023-29336",
+    "software": "windows_kernel",
+    "versions_affected": ["windows_10", "windows_11"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Elevation of privilege in Windows Kernel",
+    "published": "2023-06-13"
+  },
+  {
+    "id": "CVE-2023-32046",
+    "software": "windows_msmq",
+    "versions_affected": ["windows_10", "windows_server_2022"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Windows MSMQ",
+    "published": "2023-07-11"
+  },
+  {
+    "id": "CVE-2023-33133",
+    "software": "windows_netlogon",
+    "versions_affected": ["windows_10", "windows_server_2022"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Elevation of privilege in Netlogon",
+    "published": "2023-06-13"
+  },
+  {
+    "id": "CVE-2023-36802",
+    "software": "windows_microsoft_streaming_service",
+    "versions_affected": ["windows_10", "windows_11"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Elevation of privilege in Microsoft Streaming Service",
+    "published": "2023-08-08"
+  },
+  {
+    "id": "CVE-2023-38180",
+    "software": "windows_dotnet",
+    "versions_affected": ["dotnet_6.0", "dotnet_7.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in .NET Framework",
+    "published": "2023-08-08"
+  },
+  {
+    "id": "CVE-2023-38181",
+    "software": "windows_dotnet",
+    "versions_affected": ["dotnet_6.0", "dotnet_7.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in .NET Framework",
+    "published": "2023-08-08"
+  },
+  {
+    "id": "CVE-2023-38182",
+    "software": "windows_dotnet",
+    "versions_affected": ["dotnet_6.0", "dotnet_7.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in .NET Framework",
+    "published": "2023-08-08"
+  },
+  {
+    "id": "CVE-2022-42889",
+    "software": "apache_commons_text",
+    "versions_affected": ["1.9.0", "1.10.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Commons Text (Text4Shell)",
+    "published": "2022-10-13"
+  },
+  {
+    "id": "CVE-2022-42890",
+    "software": "apache_commons_text",
+    "versions_affected": ["1.9.0", "1.10.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Commons Text",
+    "published": "2022-10-13"
+  },
+  {
+    "id": "CVE-2022-2588",
+    "software": "linux_kernel",
+    "versions_affected": ["5.17", "5.18"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in Linux kernel (Dirty Pipe)",
+    "published": "2022-08-01"
+  },
+  {
+    "id": "CVE-2022-25636",
+    "software": "linux_kernel",
+    "versions_affected": ["5.4", "5.17"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in Linux kernel",
+    "published": "2022-02-15"
+  },
+  {
+    "id": "CVE-2022-0494",
+    "software": "linux_kernel",
+    "versions_affected": ["5.13", "5.16"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in Linux kernel",
+    "published": "2022-02-01"
+  },
+  {
+    "id": "CVE-2021-3493",
+    "software": "linux_kernel",
+    "versions_affected": ["5.8", "5.11"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in Linux kernel",
+    "published": "2021-04-02"
+  },
+  {
+    "id": "CVE-2021-3156",
+    "software": "sudo",
+    "versions_affected": ["1.8.0", "1.9.5"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in Sudo (Baron Samedit)",
+    "published": "2021-01-26"
+  },
+  {
+    "id": "CVE-2021-3560",
+    "software": "linux_polkit",
+    "versions_affected": ["0.105", "0.119"],
+    "severity": "critical",
+    "cvss_score": 7.8,
+    "description": "Local privilege escalation in polkit",
+    "published": "2021-06-03"
+  },
+  {
+    "id": "CVE-2023-35829",
+    "software": "linux_kernel",
+    "versions_affected": ["5.15", "6.4"],
+    "severity": "high",
+    "cvss_score": 7.0,
+    "description": "Use-after-free in Linux kernel",
+    "published": "2023-07-19"
+  },
+  {
+    "id": "CVE-2023-35001",
+    "software": "linux_kernel",
+    "versions_affected": ["5.15", "6.4"],
+    "severity": "high",
+    "cvss_score": 7.0,
+    "description": "Use-after-free in Linux kernel",
+    "published": "2023-07-19"
+  },
+  {
+    "id": "CVE-2022-24706",
+    "software": "apache_couchdb",
+    "versions_affected": ["3.2.0", "3.2.1"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache CouchDB",
+    "published": "2022-03-02"
+  },
+  {
+    "id": "CVE-2022-24707",
+    "software": "apache_couchdb",
+    "versions_affected": ["3.2.0", "3.2.1"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache CouchDB",
+    "published": "2022-03-02"
+  },
+  {
+    "id": "CVE-2021-41773",
+    "software": "apache_httpd",
+    "versions_affected": ["2.4.49", "2.4.50"],
+    "severity": "critical",
+    "cvss_score": 7.5,
+    "description": "Path traversal in Apache HTTP Server",
+    "published": "2021-10-05"
+  },
+  {
+    "id": "CVE-2021-42013",
+    "software": "apache_httpd",
+    "versions_affected": ["2.4.49", "2.4.50"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache HTTP Server",
+    "published": "2021-10-07"
+  },
+  {
+    "id": "CVE-2022-22721",
+    "software": "apache_httpd",
+    "versions_affected": ["2.4.0", "2.4.52"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache HTTP Server",
+    "published": "2022-01-14"
+  },
+  {
+    "id": "CVE-2023-22515",
+    "software": "atlassian_confluence",
+    "versions_affected": ["7.4.0", "7.19.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Confluence",
+    "published": "2023-07-19"
+  },
+  {
+    "id": "CVE-2023-22516",
+    "software": "atlassian_confluence",
+    "versions_affected": ["7.4.0", "7.19.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Confluence",
+    "published": "2023-07-19"
+  },
+  {
+    "id": "CVE-2023-22517",
+    "software": "atlassian_confluence",
+    "versions_affected": ["7.4.0", "7.19.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Confluence",
+    "published": "2023-07-19"
+  },
+  {
+    "id": "CVE-2022-22733",
+    "software": "apache_shiro",
+    "versions_affected": ["1.8.0", "1.9.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Shiro",
+    "published": "2022-01-14"
+  },
+  {
+    "id": "CVE-2022-22734",
+    "software": "apache_shiro",
+    "versions_affected": ["1.8.0", "1.9.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Shiro",
+    "published": "2022-01-14"
+  },
+  {
+    "id": "CVE-2022-32532",
+    "software": "apache_shiro",
+    "versions_affected": ["1.8.0", "1.9.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Shiro",
+    "published": "2022-06-01"
+  },
+  {
+    "id": "CVE-2023-28303",
+    "software": "apache_shiro",
+    "versions_affected": ["1.9.0", "1.11.0"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Shiro",
+    "published": "2023-03-01"
+  },
+  {
+    "id": "CVE-2021-41266",
+    "software": "apache_axis",
+    "versions_affected": ["1.4.0", "1.4.1"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Axis",
+    "published": "2021-11-15"
+  },
+  {
+    "id": "CVE-2021-41267",
+    "software": "apache_axis",
+    "versions_affected": ["1.4.0", "1.4.1"],
+    "severity": "critical",
+    "cvss_score": 9.8,
+    "description": "Remote code execution in Apache Axis",
+    "published": "2021-11-15"
+  },
+  {
+    "id": "CVE-2022-3171",
+    "software": "kubernetes",
+    "versions_affected": ["1.23.0", "1.25.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Kubernetes",
+    "published": "2022-09-15"
+  },
+  {
+    "id": "CVE-2022-3162",
+    "software": "kubernetes",
+    "versions_affected": ["1.23.0", "1.25.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Kubernetes",
+    "published": "2022-09-15"
+  },
+  {
+    "id": "CVE-2021-25741",
+    "software": "kubernetes",
+    "versions_affected": ["1.19.0", "1.22.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Kubernetes",
+    "published": "2021-09-15"
+  },
+  {
+    "id": "CVE-2020-8554",
+    "software": "kubernetes",
+    "versions_affected": ["1.16.0", "1.18.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Kubernetes",
+    "published": "2020-04-01"
+  },
+  {
+    "id": "CVE-2023-24317",
+    "software": "docker",
+    "versions_affected": ["20.10.0", "24.0.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Docker",
+    "published": "2023-02-15"
+  },
+  {
+    "id": "CVE-2022-36109",
+    "software": "docker",
+    "versions_affected": ["20.10.0", "20.10.18"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Docker",
+    "published": "2022-09-14"
+  },
+  {
+    "id": "CVE-2022-36110",
+    "software": "docker",
+    "versions_affected": ["20.10.0", "20.10.18"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Docker",
+    "published": "2022-09-14"
+  },
+  {
+    "id": "CVE-2023-28858",
+    "software": "docker",
+    "versions_affected": ["23.0.0", "24.0.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Docker",
+    "published": "2023-04-01"
+  },
+  {
+    "id": "CVE-2023-28859",
+    "software": "docker",
+    "versions_affected": ["23.0.0", "24.0.0"],
+    "severity": "critical",
+    "cvss_score": 8.8,
+    "description": "Remote code execution in Docker",
+    "published": "2023-04-01"
+  },
+  {
+    "id": "CVE-2022-43282",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.7"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2022-11-01"
+  },
+  {
+    "id": "CVE-2022-4304",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.7"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2022-11-01"
+  },
+  {
+    "id": "CVE-2023-34453",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34454",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34455",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34456",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34457",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34458",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34459",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34460",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  },
+  {
+    "id": "CVE-2023-34461",
+    "software": "openssl",
+    "versions_affected": ["3.0.0", "3.0.9"],
+    "severity": "high",
+    "cvss_score": 7.5,
+    "description": "Denial of service in OpenSSL",
+    "published": "2023-06-01"
+  }
+]
