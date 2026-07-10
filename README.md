@@ -46,7 +46,7 @@ cve_monitor/
 ## Запустить сканирование
 
 ```
-python main.py
+python3 main.py
 ```
 
 Если на системе нет `brew`/`winget`/`dpkg`, создаются тестовые данные:
